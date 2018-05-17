@@ -17,7 +17,7 @@ let Canvas = new Canvas2D();
 
 //Test if assets are showing up in canvas
 let image = new Image();
-image.src = "/asset/sprites/spr_background.png";
+image.src = "./assets/sprites/spr_background.png";
 
 setTimeout(() => {
     Canvas.drawImage(image, { x: 0, y: 0 });
