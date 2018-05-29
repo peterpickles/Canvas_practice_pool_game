@@ -6,3 +6,5 @@ function getThatBall () {
     var y =2 
     
 };
+
+getThatBall();
