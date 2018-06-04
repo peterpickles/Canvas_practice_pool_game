@@ -3,7 +3,7 @@ let assetsStillLoading = 0;
 
 function assetsLoadingLoop(callback) {
   if (assetsStillLoading) {
-    requestAnimationFrame(assetsLoadingLoop.bing(this, callback));
+    requestAnimationFrame(assetsLoadingLoop.bind(this, callback));
   } else {
     callback();
   }
