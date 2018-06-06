@@ -19,4 +19,4 @@ Game.prototype.mainLoop = function () {
 
 let PoolGame = new Game() {
 
-}
+};
